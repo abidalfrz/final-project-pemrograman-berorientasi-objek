@@ -18,7 +18,7 @@
 
 ## Description
 
-An Expense Tracker is a simple application that helps users monitor and manage their daily expenses. This project provides a basic structure for tracking income and expenses, categorizing them, and generating reports.
+An Expense Tracker is a simple application that helps users monitor and manage their daily expenses. This project provides a basic structure for tracking expenses, categorizing them, and generating reports. It is built with object oriented programming principles in mind, making it easy to extend and maintain.
 
 ---
 
@@ -56,8 +56,8 @@ An Expense Tracker is a simple application that helps users monitor and manage t
    ```
 4. Open your web browser and go to:
    ```
-    http://localhost:8080/Expense_Tracker
-    ```
+   http://localhost:8080/Expense_Tracker
+   ```
 ---
 
-## 📸 Screenshots
+## Screenshots
