@@ -37,7 +37,7 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 ## How to Run
 
 ### Prerequisites:
-- Java Development Kit (JDK) 17 or higher
+- Java Development Kit (JDK 17 or higher)
 - Apache Maven installed and configured in system PATH
 - Apache Tomcat server (version 7 or higher)
 
@@ -61,3 +61,15 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 ---
 
 ## Screenshots
+
+### Login Page
+
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![L-Login](assets/L-Login.jpeg) | ![D-Login](assets/D-Login.jpeg) |
+
+### Register Page
+
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![L-Register](assets/L-Register.jpeg) | ![D-Register](assets/D-Register.jpeg) |
