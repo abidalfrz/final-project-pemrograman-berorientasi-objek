@@ -2,6 +2,9 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Maven](https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Servlet](https://img.shields.io/badge/Java_Servlet-007396?style=for-the-badge&logo=java&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Status](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge)
 
 ---
@@ -18,9 +21,18 @@
 
 ## Description
 
-An Expense Tracker is a simple application that helps users monitor and manage their daily expenses. This project provides a basic structure for tracking expenses, categorizing them, and generating reports. It is built with object oriented programming principles in mind, making it easy to extend and maintain.
+An Expense Tracker is a simple application that helps users monitor and manage their daily expenses. This project provides a basic structure for tracking expenses, categorizing them, and generating reports. It is built with object oriented programming principles in mind, ensuring modularity and maintainability.
 
 ---
+
+## Technologies Used
+
+- **Java**: The core programming language used for building the application.
+- **Java Servlet**: For handling HTTP requests and responses.
+- **Apache Tomcat**: A web server to deploy and run the Java Servlet application.
+- **Apache Maven**: For project management and build automation.
+- **MySQL**: The database management system used to store user and expense data.
+- **HTML/CSS/JavaScript**: For front-end development and user interface design.
 
 ## Features
 
@@ -40,6 +52,7 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 - Java Development Kit (JDK 17 or higher)
 - Apache Maven installed and configured in system PATH
 - Apache Tomcat server (version 7 or higher)
+- MySQL database server installed and running
 
 ### Installation Steps:
 1. Clone the repository:
@@ -73,3 +86,25 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 | Light Mode | Dark Mode |
 | :---: | :---: |
 | ![L-Register](assets/L-Register.jpeg) | ![D-Register](assets/D-Register.jpeg) |
+
+### Home Page
+
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![L-Home](assets/L-Home.jpeg) | ![D-Home](assets/D-Home.jpeg) |
+
+### Dashboard Page
+
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![L-Dashboard](assets/L-Dashboard.jpeg) | ![D-Dashboard](assets/D-Dashboard.jpeg) |
+
+### Add Expense Page
+
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![L-AddExpense](assets/L-AddExpense.jpeg) | ![D-AddExpense](assets/D-AddExpense.jpeg) |
+
+### Export Results
+
+![ExportResults](assets/ExportResults.jpeg)
