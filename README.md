@@ -34,15 +34,17 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 - **MySQL**: The database management system used to store user and expense data.
 - **HTML/CSS/JavaScript**: For front-end development and user interface design.
 
+---
+
 ## Features
 
-- Authentication system for user login, register, and logout
-- CRUD operations for expenses
-- Search, sort, and filter expenses
-- Real time notification
-- Expense statistics and analytics
-- Exporting and reporting expenses
-- Dark/light mode toggle
+- **Authentication system for user login, register, and logout**: Provide secure access to the application.
+- **CRUD operations for expenses**: Enable users to create, read, update, and delete their expense records.
+- **Search, sort, and filter expenses**: Enable users to easily find and organize their expenses records. For searching, users can find their expense records based on keywords in the title. Sorting, users can sort their expense records by date or amount. Filtering, users can filter their expense records based on expense categories.
+- **Real time notification**: Notify users of successful operations or errors.
+- **Expense statistics and analytics**: Provide insights into spending habits through charts.
+- **Exporting and reporting expenses**: Enable users to export their expense data in PDF format.
+- **Dark/light mode toggle**: Enhance user experience with theme options.
 
 ---
 
@@ -63,11 +65,15 @@ An Expense Tracker is a simple application that helps users monitor and manage t
    ```bash
    cd final-project-pemrograman-berorientasi-objek/Expense_Tracker
    ```
-3. Run the application:
+3. Create a new MySQL database, for example `expense_tracker`.
+4. Configure database connection:
+   - Open the `src/main/java/util/HibernateUtil.java` file.
+   - Update the database URL, username, and password to match your MySQL configuration.
+5. Run the application:
    ```bash
    mvn tomcat7:run
    ```
-4. Open your web browser and go to:
+6. Open your web browser and go to:
    ```
    http://localhost:8080/Expense_Tracker
    ```
@@ -105,6 +111,6 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 | :---: | :---: |
 | ![L-AddExpense](assets/L-AddExpense.jpeg) | ![D-AddExpense](assets/D-AddExpense.jpeg) |
 
-### Export Results
+### Exported Results
 
 ![ExportResults](assets/ExportResults.jpeg)
