@@ -123,6 +123,10 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 
 ![ExportResults](assets/ExportResults.jpeg)
 
+### Link GitHub
+
+https://github.com/abidalfrz/final-project-pemrograman-berorientasi-objek
+
 ### Link Youtube
 
 https://youtu.be/mZNt2BdwFX0
