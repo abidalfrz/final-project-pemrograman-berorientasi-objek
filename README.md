@@ -19,9 +19,11 @@
 
 ---
 
-## Description
+## Project Overview (Description)
 
-An Expense Tracker is a simple application that helps users monitor and manage their daily expenses. This project provides a basic structure for tracking expenses, categorizing them, and generating reports. It is built with object oriented programming principles in mind, ensuring modularity and maintainability.
+The Expense Tracker is a comprehensive web-based application designed to address the challenges of personal financial management. In an era where digital transactions are ubiquitous, maintaining financial literacy and tracking daily expenditures is crucial. This application provides a robust solution for users to record, monitor, and analyze their financial activities efficiently.
+
+Built upon the principles of Object-Oriented Programming (OOP), the system utilizes the Model-View-Controller (MVC) architectural pattern. This ensures a strict separation of concerns, resulting in a codebase that is modular, scalable, and easy to maintain. The project demonstrates the practical application of Java enterprise technologies, database management, and secure web development practices.
 
 ---
 
@@ -38,21 +40,39 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 
 ## Features
 
-- **Authentication system for user login, register, and logout**: Provide secure access to the application.
-- **CRUD operations for expenses**: Enable users to create, read, update, and delete their expense records.
-- **Search, sort, and filter expenses**: Enable users to easily find and organize their expenses records. For searching, users can find their expense records based on keywords in the title. Sorting, users can sort their expense records by date or amount. Filtering, users can filter their expense records based on expense categories.
-- **Real time notification**: Notify users of successful operations or errors.
-- **Expense statistics and analytics**: Provide insights into spending habits through charts.
-- **Exporting and reporting expenses**: Enable users to export their expense data in PDF format.
-- **Dark/light mode toggle**: Enhance user experience with theme options.
+Backend Core
+- Java Development Kit (JDK) 17: Serves as the foundation for the application logic, leveraging strong typing and modern OOP features.
+- Java Servlet API: Functions as the Controller layer, managing HTTP requests, session handling, and application routing.
+- Hibernate ORM: Implements the Object-Relational Mapping technique to bridge the gap between Java objects and the relational database, eliminating boilerplate SQL code.
+
+Infrastructure and Build Tools
+- Apache Maven: Manages project dependencies, build lifecycles, and project structure standardization.
+- Apache Tomcat: Acts as the servlet container and web server for deploying the compiled application.
+
+Data Persistence
+- MySQL: A relational database management system used for persistent storage of user credentials and transaction records.
+
+Frontend Interface
+- HTML5, CSS3, and JavaScript: Provides a responsive and interactive user interface, featuring dynamic DOM manipulation and theme management (Dark/Light mode).
 
 ---
 
-## Class
+## System Design (Classes)
 
-- HibernateUtil: A utility class responsible for configuring the Hibernate framework and managing the SessionFactory to handle database connections efficiently.
-- UserDao, ExpenseDao, NotificationDao: Data Access Object (DAO) classes designed to encapsulate persistence logic and execute CRUD (Create, Read, Update, Delete) operations on the database.
-- User, Expense, Notification: Entity classes (Models) that map directly to the corresponding database tables, representing the core data structure and attributes of the application.
+Data Access Layer (DAO Pattern)
+This layer isolates the application/business layer from the persistence layer.
+- UserDao: Manages all database operations related to user accounts, including authentication verification and profile updates.
+- ExpenseDao: Handles the lifecycle of expense records. It encapsulates complex queries for filtering, sorting, and aggregating financial data.
+- NotificationDao: Responsible for persisting and retrieving user system notifications.
+
+Entity Layer (Models)
+These classes represent the data structure and map directly to database tables via Hibernate annotations.
+- User: Represents the application user, storing credentials and profile information.
+- Expense: The core entity containing transaction details such as amount, category (ENUM), date, and description.
+- Notification: Represents alerts or messages intended for the user.
+
+Utility and Configuration
+- HibernateUtil: A utility class implementing the Singleton pattern. It configures the Hibernate SessionFactory and manages database connections to ensure resource efficiency and thread safety.
 
 ---
 
