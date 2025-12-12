@@ -150,3 +150,13 @@ https://github.com/abidalfrz/final-project-pemrograman-berorientasi-objek
 ### Link Youtube
 
 https://youtu.be/mZNt2BdwFX0
+
+---
+
+## Conclusion
+
+The Expense Tracker project serves as a testament to the practical application of advanced software engineering principles, specifically focusing on Object-Oriented Programming (OOP) and the Model-View-Controller (MVC) architecture. By successfully integrating Java Servlets, Hibernate ORM, and MySQL, the development team has delivered a robust, secure, and user-centric solution for personal financial management.
+
+This project not only addresses the real-world problem of financial tracking but also demonstrates the scalability and maintainability of enterprise-grade Java applications. The strict separation of concerns achieved through the DAO pattern and layered architecture ensures that the codebase remains clean and adaptable for future iterations.
+
+Looking ahead, this application establishes a solid foundation for potential enhancements. Future development roadmaps could include the integration of Machine Learning for predictive spending analysis, the development of a native mobile application companion, and direct API integration with banking services to automate transaction recording. Ultimately, this project highlights the critical role of structured programming in building reliable and efficient web software.
