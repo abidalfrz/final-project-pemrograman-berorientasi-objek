@@ -48,6 +48,14 @@ An Expense Tracker is a simple application that helps users monitor and manage t
 
 ---
 
+## Class
+
+- HibernateUtil: A utility class responsible for configuring the Hibernate framework and managing the SessionFactory to handle database connections efficiently.
+- UserDao, ExpenseDao, NotificationDao: Data Access Object (DAO) classes designed to encapsulate persistence logic and execute CRUD (Create, Read, Update, Delete) operations on the database.
+- User, Expense, Notification: Entity classes (Models) that map directly to the corresponding database tables, representing the core data structure and attributes of the application.
+
+---
+
 ## How to Run
 
 ### Prerequisites:
